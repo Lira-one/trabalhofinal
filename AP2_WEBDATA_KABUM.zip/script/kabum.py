@@ -13,8 +13,8 @@ Aqui, vamos analisar valores nulos, estatísticas descritivas e relações entre
 # 2. Carregar o dataset
 st.header("📂 1. Carregamento dos Dados")
 
-caminho_csv = "bases_tratadas/dados_kabum2.csv"
-#df = pd.read_csv('dados_kabum2.csv')
+caminho_csv = "scripts/dados_kabum2.csv"
+
 try:
     df = pd.read_csv(caminho_csv, sep=';')
     st.success("Dados carregados com sucesso!")
