@@ -13,7 +13,7 @@ Aqui, vamos analisar valores nulos, estatísticas descritivas e relações entre
 # 2. Carregar o dataset
 st.header("📂 1. Carregamento dos Dados")
 
-caminho_csv = "AP2_WEBDATA_KABUM.zip/script/kabum.py"
+caminho_csv = "AP2_WEBDATA_KABUM.zip/script/dados_kabum2.csv"
 
 try:
     df = pd.read_csv(caminho_csv, sep=';')
